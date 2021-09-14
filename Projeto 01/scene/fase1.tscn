@@ -1,124 +1,15 @@
-[gd_scene load_steps=182 format=2]
+[gd_scene load_steps=72 format=2]
 
-[ext_resource path="res://sprite/ninja/png/Attack__009.png" type="Texture" id=1]
-[ext_resource path="res://sprite/ninja/png/Attack__003.png" type="Texture" id=2]
-[ext_resource path="res://sprite/ninja/png/Attack__001.png" type="Texture" id=3]
-[ext_resource path="res://sprite/ninja/png/Attack__000.png" type="Texture" id=4]
-[ext_resource path="res://sprite/ninja/png/Attack__002.png" type="Texture" id=5]
-[ext_resource path="res://sprite/ninja/png/Idle__005.png" type="Texture" id=6]
-[ext_resource path="res://sprite/ninja/png/Dead__003.png" type="Texture" id=7]
-[ext_resource path="res://sprite/ninja/png/Idle__006.png" type="Texture" id=8]
-[ext_resource path="res://sprite/ninja/png/Attack__007.png" type="Texture" id=9]
-[ext_resource path="res://sprite/ninja/png/Glide_002.png" type="Texture" id=10]
-[ext_resource path="res://sprite/ninja/png/Idle__000.png" type="Texture" id=11]
-[ext_resource path="res://sprite/ninja/png/Dead__009.png" type="Texture" id=12]
-[ext_resource path="res://sprite/ninja/png/Idle__007.png" type="Texture" id=13]
-[ext_resource path="res://sprite/ninja/png/Idle__008.png" type="Texture" id=14]
-[ext_resource path="res://sprite/ninja/png/Idle__009.png" type="Texture" id=15]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__000.png" type="Texture" id=16]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__001.png" type="Texture" id=17]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__002.png" type="Texture" id=18]
-[ext_resource path="res://sprite/ninja/png/Idle__001.png" type="Texture" id=19]
-[ext_resource path="res://sprite/ninja/png/Glide_008.png" type="Texture" id=20]
-[ext_resource path="res://sprite/ninja/png/Glide_004.png" type="Texture" id=21]
-[ext_resource path="res://sprite/ninja/png/Dead__001.png" type="Texture" id=22]
-[ext_resource path="res://sprite/ninja/png/Dead__004.png" type="Texture" id=23]
-[ext_resource path="res://sprite/ninja/png/Attack__005.png" type="Texture" id=24]
-[ext_resource path="res://sprite/ninja/png/Attack__008.png" type="Texture" id=25]
-[ext_resource path="res://sprite/ninja/png/Attack__006.png" type="Texture" id=26]
-[ext_resource path="res://sprite/ninja/png/Dead__000.png" type="Texture" id=27]
-[ext_resource path="res://sprite/ninja/png/Dead__002.png" type="Texture" id=28]
-[ext_resource path="res://sprite/ninja/png/Dead__006.png" type="Texture" id=29]
-[ext_resource path="res://sprite/ninja/png/Dead__008.png" type="Texture" id=30]
-[ext_resource path="res://sprite/ninja/png/Glide_000.png" type="Texture" id=31]
-[ext_resource path="res://sprite/ninja/png/Glide_003.png" type="Texture" id=32]
-[ext_resource path="res://sprite/ninja/png/Glide_005.png" type="Texture" id=33]
-[ext_resource path="res://sprite/ninja/png/Glide_006.png" type="Texture" id=34]
-[ext_resource path="res://sprite/ninja/png/Glide_009.png" type="Texture" id=35]
-[ext_resource path="res://sprite/ninja/png/Attack__004.png" type="Texture" id=36]
-[ext_resource path="res://sprite/ninja/png/Dead__007.png" type="Texture" id=37]
-[ext_resource path="res://sprite/ninja/png/Glide_007.png" type="Texture" id=38]
-[ext_resource path="res://sprite/ninja/png/Idle__002.png" type="Texture" id=39]
-[ext_resource path="res://sprite/ninja/png/Dead__005.png" type="Texture" id=40]
-[ext_resource path="res://sprite/ninja/png/Glide_001.png" type="Texture" id=41]
-[ext_resource path="res://sprite/ninja/png/Idle__003.png" type="Texture" id=42]
-[ext_resource path="res://sprite/ninja/png/Idle__004.png" type="Texture" id=43]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__003.png" type="Texture" id=44]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__008.png" type="Texture" id=45]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__004.png" type="Texture" id=46]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__006.png" type="Texture" id=47]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__007.png" type="Texture" id=48]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__009.png" type="Texture" id=49]
-[ext_resource path="res://sprite/ninja/png/Jump_Attack__005.png" type="Texture" id=50]
-[ext_resource path="res://sprite/ninja/png/Run__004.png" type="Texture" id=51]
-[ext_resource path="res://sprite/ninja/png/Run__003.png" type="Texture" id=52]
-[ext_resource path="res://sprite/ninja/png/Run__002.png" type="Texture" id=53]
-[ext_resource path="res://sprite/ninja/png/Jump__005.png" type="Texture" id=54]
-[ext_resource path="res://sprite/ninja/png/Jump__004.png" type="Texture" id=55]
-[ext_resource path="res://sprite/ninja/png/Jump__007.png" type="Texture" id=56]
-[ext_resource path="res://sprite/ninja/png/Jump__008.png" type="Texture" id=57]
-[ext_resource path="res://sprite/ninja/png/Jump__003.png" type="Texture" id=58]
-[ext_resource path="res://sprite/ninja/png/Jump__006.png" type="Texture" id=59]
-[ext_resource path="res://sprite/ninja/png/Jump__009.png" type="Texture" id=60]
-[ext_resource path="res://sprite/ninja/png/Kunai.png" type="Texture" id=61]
-[ext_resource path="res://sprite/ninja/png/Run__000.png" type="Texture" id=62]
-[ext_resource path="res://sprite/ninja/png/Run__001.png" type="Texture" id=63]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__000.png" type="Texture" id=64]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__003.png" type="Texture" id=65]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__005.png" type="Texture" id=66]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__001.png" type="Texture" id=67]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__002.png" type="Texture" id=68]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__004.png" type="Texture" id=69]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__006.png" type="Texture" id=70]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__007.png" type="Texture" id=71]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__008.png" type="Texture" id=72]
-[ext_resource path="res://sprite/ninja/png/Jump__000.png" type="Texture" id=73]
-[ext_resource path="res://sprite/ninja/png/Jump__002.png" type="Texture" id=74]
-[ext_resource path="res://sprite/ninja/png/Jump__001.png" type="Texture" id=75]
-[ext_resource path="res://sprite/ninja/png/Jump_Throw__009.png" type="Texture" id=76]
-[ext_resource path="res://sprite/ninja/png/Run__005.png" type="Texture" id=77]
-[ext_resource path="res://sprite/ninja/png/Slide__004.png" type="Texture" id=78]
-[ext_resource path="res://sprite/ninja/png/Throw__008.png" type="Texture" id=79]
-[ext_resource path="res://sprite/ninja/png/Slide__008.png" type="Texture" id=80]
-[ext_resource path="res://sprite/ninja/png/Slide__007.png" type="Texture" id=81]
-[ext_resource path="res://sprite/ninja/png/Climb_004.png" type="Texture" id=82]
-[ext_resource path="res://sprite/ninja/png/Climb_009.png" type="Texture" id=83]
-[ext_resource path="res://sprite/ninja/png/Climb_005.png" type="Texture" id=84]
-[ext_resource path="res://sprite/ninja/png/Climb_006.png" type="Texture" id=85]
-[ext_resource path="res://sprite/ninja/png/Slide__006.png" type="Texture" id=86]
-[ext_resource path="res://sprite/ninja/png/Throw__002.png" type="Texture" id=87]
+[ext_resource path="res://scene/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://sprite/cat/Dead (1).png" type="Texture" id=88]
 [ext_resource path="res://sprite/cat/Dead (2).png" type="Texture" id=89]
-[ext_resource path="res://sprite/ninja/png/Run__006.png" type="Texture" id=90]
-[ext_resource path="res://sprite/ninja/png/Slide__005.png" type="Texture" id=91]
 [ext_resource path="res://sprite/cat/Dead (6).png" type="Texture" id=92]
-[ext_resource path="res://sprite/ninja/png/Run__007.png" type="Texture" id=93]
-[ext_resource path="res://sprite/ninja/png/Run__009.png" type="Texture" id=94]
-[ext_resource path="res://sprite/ninja/png/Slide__001.png" type="Texture" id=95]
-[ext_resource path="res://sprite/ninja/png/Slide__002.png" type="Texture" id=96]
-[ext_resource path="res://sprite/ninja/png/Throw__006.png" type="Texture" id=97]
-[ext_resource path="res://sprite/ninja/png/Throw__001.png" type="Texture" id=98]
 [ext_resource path="res://sprite/cat/Dead (5).png" type="Texture" id=99]
-[ext_resource path="res://sprite/ninja/png/Throw__004.png" type="Texture" id=100]
-[ext_resource path="res://sprite/ninja/png/Throw__003.png" type="Texture" id=101]
 [ext_resource path="res://sprite/cat/Dead (8).png" type="Texture" id=102]
 [ext_resource path="res://sprite/cat/Dead (10).png" type="Texture" id=103]
-[ext_resource path="res://sprite/ninja/png/Throw__000.png" type="Texture" id=104]
-[ext_resource path="res://sprite/ninja/png/Climb_000.png" type="Texture" id=105]
-[ext_resource path="res://sprite/ninja/png/Climb_001.png" type="Texture" id=106]
-[ext_resource path="res://sprite/ninja/png/Climb_008.png" type="Texture" id=107]
 [ext_resource path="res://sprite/cat/Dead (4).png" type="Texture" id=108]
-[ext_resource path="res://sprite/ninja/png/Climb_007.png" type="Texture" id=109]
 [ext_resource path="res://sprite/cat/Dead (9).png" type="Texture" id=110]
-[ext_resource path="res://sprite/ninja/png/Run__008.png" type="Texture" id=111]
 [ext_resource path="res://sprite/cat/Dead (7).png" type="Texture" id=112]
-[ext_resource path="res://sprite/ninja/png/Throw__007.png" type="Texture" id=113]
-[ext_resource path="res://sprite/ninja/png/Throw__009.png" type="Texture" id=114]
-[ext_resource path="res://sprite/ninja/png/Climb_002.png" type="Texture" id=115]
-[ext_resource path="res://sprite/ninja/png/Slide__009.png" type="Texture" id=116]
-[ext_resource path="res://sprite/ninja/png/Throw__005.png" type="Texture" id=117]
-[ext_resource path="res://sprite/ninja/png/Slide__003.png" type="Texture" id=118]
-[ext_resource path="res://sprite/ninja/png/Climb_003.png" type="Texture" id=119]
 [ext_resource path="res://sprite/cat/Dead (3).png" type="Texture" id=120]
 [ext_resource path="res://sprite/cat/Run (1).png" type="Texture" id=121]
 [ext_resource path="res://sprite/cat/Slide (6).png" type="Texture" id=122]
@@ -171,8 +62,14 @@
 [ext_resource path="res://tileset/Tiles/12.png" type="Texture" id=169]
 [ext_resource path="res://tileset/Tiles/15.png" type="Texture" id=170]
 
-[sub_resource type="ConvexPolygonShape2D" id=3]
+[sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 128, 128, 0, 128, 0, 0, 128, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=4]
 points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
@@ -181,21 +78,15 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
-points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
+points = PoolVector2Array( 128, 128, 0, 128, 0, 0, 128, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=7]
 points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 
 [sub_resource type="ConvexPolygonShape2D" id=8]
-points = PoolVector2Array( 128, 128, 0, 128, 0, 0, 128, 0 )
-
-[sub_resource type="ConvexPolygonShape2D" id=9]
 points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 
-[sub_resource type="ConvexPolygonShape2D" id=10]
-points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
-
-[sub_resource type="TileSet" id=11]
+[sub_resource type="TileSet" id=9]
 0/name = "1.png 0"
 0/texture = ExtResource( 158 )
 0/tex_offset = Vector2( 0, 0 )
@@ -206,14 +97,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 0/navigation_offset = Vector2( 0, 0 )
 0/shape_offset = Vector2( 0, 0 )
 0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape = SubResource( 3 )
+0/shape = SubResource( 1 )
 0/shape_one_way = false
 0/shape_one_way_margin = 1.0
 0/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 1 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 0/z_index = 0
@@ -227,14 +118,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 1/navigation_offset = Vector2( 0, 0 )
 1/shape_offset = Vector2( 0, 0 )
 1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-1/shape = SubResource( 4 )
+1/shape = SubResource( 2 )
 1/shape_one_way = false
 1/shape_one_way_margin = 1.0
 1/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 4 ),
+"shape": SubResource( 2 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 1/z_index = 0
@@ -276,14 +167,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 4/navigation_offset = Vector2( 0, 0 )
 4/shape_offset = Vector2( 0, 0 )
 4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-4/shape = SubResource( 8 )
+4/shape = SubResource( 6 )
 4/shape_one_way = false
 4/shape_one_way_margin = 1.0
 4/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 8 ),
+"shape": SubResource( 6 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 4/z_index = 0
@@ -297,14 +188,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 5/navigation_offset = Vector2( 0, 0 )
 5/shape_offset = Vector2( 0, 0 )
 5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-5/shape = SubResource( 9 )
+5/shape = SubResource( 7 )
 5/shape_one_way = false
 5/shape_one_way_margin = 1.0
 5/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 9 ),
+"shape": SubResource( 7 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 5/z_index = 0
@@ -332,14 +223,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 7/navigation_offset = Vector2( 0, 0 )
 7/shape_offset = Vector2( 0, 0 )
 7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-7/shape = SubResource( 10 )
+7/shape = SubResource( 8 )
 7/shape_one_way = false
 7/shape_one_way_margin = 1.0
 7/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 10 ),
+"shape": SubResource( 8 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 7/z_index = 0
@@ -395,14 +286,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 11/navigation_offset = Vector2( 0, 0 )
 11/shape_offset = Vector2( 0, 0 )
 11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-11/shape = SubResource( 5 )
+11/shape = SubResource( 3 )
 11/shape_one_way = false
 11/shape_one_way_margin = 1.0
 11/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 5 ),
+"shape": SubResource( 3 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 11/z_index = 0
@@ -458,14 +349,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 15/navigation_offset = Vector2( 0, 0 )
 15/shape_offset = Vector2( 0, 0 )
 15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-15/shape = SubResource( 6 )
+15/shape = SubResource( 4 )
 15/shape_one_way = false
 15/shape_one_way_margin = 1.0
 15/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 6 ),
+"shape": SubResource( 4 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 15/z_index = 0
@@ -493,14 +384,14 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 17/navigation_offset = Vector2( 0, 0 )
 17/shape_offset = Vector2( 0, 0 )
 17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-17/shape = SubResource( 7 )
+17/shape = SubResource( 5 )
 17/shape_one_way = false
 17/shape_one_way_margin = 1.0
 17/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 7 ),
+"shape": SubResource( 5 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 17/z_index = 0
@@ -547,130 +438,61 @@ points = PoolVector2Array( 128, 32, 0, 32, 0, 0, 128, 0 )
 20/shapes = [  ]
 20/z_index = 0
 
-[sub_resource type="SpriteFrames" id=1]
+[sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ ExtResource( 73 ), ExtResource( 75 ), ExtResource( 74 ), ExtResource( 58 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 60 ) ],
+"frames": [ null, null, null, null, null, null, null, null ],
 "loop": true,
-"name": "Pulo",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 61 ) ],
-"loop": true,
-"name": "Kunai",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 2 ), ExtResource( 36 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 9 ), ExtResource( 25 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "Ataque",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 27 ), ExtResource( 22 ), ExtResource( 28 ), ExtResource( 7 ), ExtResource( 23 ), ExtResource( 40 ), ExtResource( 29 ), ExtResource( 37 ), ExtResource( 30 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "Morte",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 31 ), ExtResource( 41 ), ExtResource( 10 ), ExtResource( 32 ), ExtResource( 21 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 20 ), ExtResource( 35 ) ],
-"loop": true,
-"name": "Paraquedas",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 44 ), ExtResource( 46 ), ExtResource( 50 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 45 ) ],
-"loop": true,
-"name": "Pulo de ataque com a faca",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 95 ), ExtResource( 96 ), ExtResource( 118 ), ExtResource( 78 ), ExtResource( 91 ), ExtResource( 86 ), ExtResource( 81 ), ExtResource( 80 ), ExtResource( 116 ) ],
-"loop": true,
-"name": "Rasteira",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 105 ), ExtResource( 106 ), ExtResource( 115 ), ExtResource( 119 ), ExtResource( 82 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 109 ), ExtResource( 107 ), ExtResource( 83 ) ],
-"loop": true,
-"name": "Escalando",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 104 ), ExtResource( 98 ), ExtResource( 87 ), ExtResource( 101 ), ExtResource( 100 ), ExtResource( 117 ), ExtResource( 97 ), ExtResource( 113 ), ExtResource( 79 ), ExtResource( 114 ) ],
-"loop": true,
-"name": "Ataque konai",
-"speed": 7.0
-}, {
-"frames": [ ExtResource( 64 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 65 ), ExtResource( 69 ), ExtResource( 66 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 76 ) ],
-"loop": true,
-"name": "Ataque de joelhos",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 53 ), ExtResource( 52 ), ExtResource( 51 ), ExtResource( 77 ), ExtResource( 90 ), ExtResource( 93 ), ExtResource( 111 ), ExtResource( 94 ) ],
-"loop": true,
-"name": "Correndo",
-"speed": 11.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 19 ), ExtResource( 39 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ) ],
-"loop": true,
-"name": "Respirando",
-"speed": 10.0
-} ]
-
-[sub_resource type="SpriteFrames" id=2]
-animations = [ {
-"frames": [ ExtResource( 129 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 124 ), ExtResource( 123 ), ExtResource( 122 ), ExtResource( 134 ), ExtResource( 136 ), ExtResource( 130 ), ExtResource( 133 ) ],
-"loop": true,
-"name": "Caindo no chão",
-"speed": 5.0
+"name": "Abrindo as pernas",
+"speed": 9.0
 }, {
 "frames": [ ExtResource( 88 ), ExtResource( 89 ), ExtResource( 120 ), ExtResource( 108 ), ExtResource( 99 ), ExtResource( 92 ), ExtResource( 112 ), ExtResource( 102 ), ExtResource( 110 ), ExtResource( 103 ) ],
 "loop": true,
 "name": "Morrendo",
 "speed": 5.0
 }, {
-"frames": [ null, null, null, null, null, null, null, null ],
+"frames": [ ExtResource( 150 ), ExtResource( 152 ), ExtResource( 140 ), ExtResource( 153 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ) ],
 "loop": true,
-"name": "Abrindo as pernas",
-"speed": 9.0
+"name": "Respirando",
+"speed": 10.0
 }, {
 "frames": [ ExtResource( 121 ), ExtResource( 132 ), ExtResource( 128 ), ExtResource( 135 ), ExtResource( 127 ), ExtResource( 138 ), ExtResource( 137 ), ExtResource( 131 ) ],
 "loop": true,
 "name": "Correndo",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 150 ), ExtResource( 152 ), ExtResource( 140 ), ExtResource( 153 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ) ],
+"frames": [ ExtResource( 129 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 124 ), ExtResource( 123 ), ExtResource( 122 ), ExtResource( 134 ), ExtResource( 136 ), ExtResource( 130 ), ExtResource( 133 ) ],
 "loop": true,
-"name": "Respirando",
-"speed": 10.0
+"name": "Caindo no chão",
+"speed": 5.0
 } ]
 
 [node name="Game" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
-position = Vector2( 1534.26, 149.803 )
-scale = Vector2( 2.80236, 2.30182 )
+position = Vector2( 1386.89, 203 )
+scale = Vector2( 3.06016, 2.1874 )
 texture = ExtResource( 164 )
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource( 11 )
+tile_set = SubResource( 9 )
 cell_size = Vector2( 128, 128 )
 format = 1
-tile_data = PoolIntArray( 327681, 0, 0, 327682, 4, 0, 327683, 4, 0, 327684, 4, 0, 327685, 4, 0, 327686, 4, 0, 327687, 4, 0, 327688, 4, 0, 327689, 4, 0, 327690, 4, 0, 327691, 4, 0, 327692, 4, 0, 327693, 4, 0, 327694, 4, 0, 327695, 4, 0, 327696, 4, 0, 327697, 4, 0, 327698, 4, 0, 327699, 4, 0, 327700, 4, 0, 327701, 4, 0, 327702, 5, 0, 393217, 3, 0, 393218, 2, 0, 393219, 2, 0, 393220, 2, 0, 393221, 2, 0, 393222, 2, 0, 393223, 2, 0, 393224, 2, 0, 393225, 2, 0, 393226, 2, 0, 393227, 2, 0, 393228, 2, 0, 393229, 2, 0, 393230, 2, 0, 393231, 2, 0, 393232, 2, 0, 393233, 2, 0, 393234, 2, 0, 393235, 2, 0, 393236, 2, 0, 393237, 2, 0, 393238, 6, 0, 458753, 3, 0, 458754, 2, 0, 458755, 2, 0, 458756, 2, 0, 458757, 2, 0, 458758, 2, 0, 458759, 2, 0, 458760, 2, 0, 458761, 2, 0, 458762, 2, 0, 458763, 2, 0, 458764, 2, 0, 458765, 2, 0, 458766, 2, 0, 458767, 2, 0, 458768, 2, 0, 458769, 2, 0, 458770, 2, 0, 458771, 2, 0, 458772, 2, 0, 458773, 2, 0, 458774, 6, 0, 720936, 0, 0 )
-
-[node name="ninjaJubileu" type="AnimatedSprite" parent="."]
-position = Vector2( 365.198, 440.635 )
-frames = SubResource( 1 )
-animation = "Ataque"
-playing = true
+tile_data = PoolIntArray( 393215, 0, 0, 327680, 4, 0, 327681, 4, 0, 327682, 4, 0, 327683, 4, 0, 327684, 4, 0, 327685, 4, 0, 327686, 4, 0, 327687, 4, 0, 327688, 4, 0, 327689, 4, 0, 327690, 5, 0, 327694, 0, 0, 327695, 4, 0, 327696, 4, 0, 327697, 4, 0, 327698, 4, 0, 327699, 4, 0, 327700, 4, 0, 327701, 4, 0, 327702, 5, 0, 458751, 3, 0, 393216, 2, 0, 393217, 2, 0, 393218, 2, 0, 393219, 2, 0, 393220, 2, 0, 393221, 2, 0, 393222, 2, 0, 393223, 2, 0, 393224, 2, 0, 393225, 2, 0, 393226, 6, 0, 393230, 3, 0, 393231, 2, 0, 393232, 2, 0, 393233, 2, 0, 393234, 2, 0, 393235, 2, 0, 393236, 2, 0, 393237, 2, 0, 393238, 6, 0, 524287, 3, 0, 458752, 2, 0, 458753, 2, 0, 458754, 2, 0, 458755, 2, 0, 458756, 2, 0, 458757, 2, 0, 458758, 2, 0, 458759, 2, 0, 458760, 2, 0, 458761, 2, 0, 458762, 6, 0, 458766, 3, 0, 458767, 2, 0, 458768, 2, 0, 458769, 2, 0, 458770, 2, 0, 458771, 2, 0, 458772, 2, 0, 458773, 2, 0, 458774, 6, 0, 720936, 0, 0 )
 
 [node name="gato" type="AnimatedSprite" parent="."]
-position = Vector2( 651.2, 436.732 )
-frames = SubResource( 2 )
+position = Vector2( 2018.55, 431.692 )
+frames = SubResource( 10 )
 animation = "Morrendo"
-frame = 1
+frame = 5
 playing = true
 
 [node name="Mushroom_2" type="Sprite" parent="."]
-position = Vector2( 1735.53, 604.809 )
+position = Vector2( 1685.08, 604.809 )
 scale = Vector2( 3.06511, 2.47698 )
 texture = ExtResource( 151 )
 
 [node name="Tree_3" type="Sprite" parent="."]
-position = Vector2( 2713.7, 473.205 )
+position = Vector2( 2643.14, 475.725 )
 scale = Vector2( 1.40689, 1.36881 )
 texture = ExtResource( 149 )
 
@@ -678,3 +500,9 @@ texture = ExtResource( 149 )
 position = Vector2( 2175.1, 599.61 )
 scale = Vector2( 3.06511, 2.47698 )
 texture = ExtResource( 148 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 364.857, 327.58 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
