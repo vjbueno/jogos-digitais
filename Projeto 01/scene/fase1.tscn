@@ -450,6 +450,11 @@ animations = [ {
 "name": "Morrendo",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 129 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 124 ), ExtResource( 123 ), ExtResource( 122 ), ExtResource( 134 ), ExtResource( 136 ), ExtResource( 130 ), ExtResource( 133 ) ],
+"loop": true,
+"name": "Caindo no chão",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 150 ), ExtResource( 152 ), ExtResource( 140 ), ExtResource( 153 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ) ],
 "loop": true,
 "name": "Respirando",
@@ -459,11 +464,6 @@ animations = [ {
 "loop": true,
 "name": "Correndo",
 "speed": 10.0
-}, {
-"frames": [ ExtResource( 129 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 124 ), ExtResource( 123 ), ExtResource( 122 ), ExtResource( 134 ), ExtResource( 136 ), ExtResource( 130 ), ExtResource( 133 ) ],
-"loop": true,
-"name": "Caindo no chão",
-"speed": 5.0
 } ]
 
 [node name="Game" type="Node2D"]
@@ -483,7 +483,7 @@ tile_data = PoolIntArray( 393215, 0, 0, 327680, 4, 0, 327681, 4, 0, 327682, 4, 0
 position = Vector2( 2018.55, 431.692 )
 frames = SubResource( 10 )
 animation = "Morrendo"
-frame = 5
+frame = 7
 playing = true
 
 [node name="Mushroom_2" type="Sprite" parent="."]
@@ -502,7 +502,7 @@ scale = Vector2( 3.06511, 2.47698 )
 texture = ExtResource( 148 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 364.857, 327.58 )
+position = Vector2( 365.857, 327.58 )
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 current = true
